@@ -7,6 +7,7 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
     </Button>
   ));
 };
+
 FeedbackOptions.propTypes = {
   options: PropTypes.array.isRequired,
   onLeaveFeedback: PropTypes.func.isRequired,
